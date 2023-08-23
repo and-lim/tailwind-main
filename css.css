@@ -1,0 +1,24 @@
+.navbar-scrolled{
+	background-color: white;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    color: black !important;
+}
+
+.swiper [class^="swiper-button-"]{
+	color: purple;
+	width: 5px !important;
+ }
+
+ .swiper-slide img{
+	width: 80%;
+    display: block;
+    margin: 0 auto;
+ }
+
+ .swiper [class^="swiper-button-"]::after{
+	font-size: 20px;
+ }
+
+ .swiper-pagination-bullet-active {
+	background-color: purple !important;
+}
